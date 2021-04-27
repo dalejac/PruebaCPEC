@@ -1,0 +1,9 @@
+<input type="file" (change)="onFileChange($event)" multiple="false" />
+
+<button (click)="mostrar()">Mostrar Texto</button>
+
+<div *ngIf='show'>
+    {{nivel}},en cumplimiento de los fallos judiciales de restitución de tierras bajo la Ruta Individual, se han entregado y compensado {{data1[1][3]}}predios que corresponden a {{data1[1][4]}} hectáreas con orden de restitución y/o compensación beneficiando a {{data1[1][5]}} personas, de las cuales {{data1[1][6]}} son mujeres. Además, la Unidad de Restitución de Tierras ha beneficiado a {{data1[1][7]}} familias con proyectos productivos con una inversión de X millones de pesos.
+    
+    Por su parte, la Agencia Nacional de Tierras avanzó en la regulación de {{data2[1][3]}} hectáreas a través de {{data2[1][4]}} títulos expedidos y registrados en beneficio de {{data2[1][5]}} familias. De éstas, {{data2[1][6]}} hectáreas formalizadas y adjudicadas han beneficiado a {{data2[1][7]}} mujeres rurales titulares. Adicionalmente, se han ingresado {{data2[1][8]}} hectáreas al Fondo de Tierras de la Nación.
+</div>
